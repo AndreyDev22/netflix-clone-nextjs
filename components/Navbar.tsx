@@ -52,12 +52,12 @@ const Navbar = () => {
       >
         <img className="h-4 lg:h-7" src="/images/logo.png" alt="Logo" />
         <div className="flex-row ml-8 gap-7 hidden lg:flex">
-          <NavbarItem label="Home" />
-          <NavbarItem label="Series" />
-          <NavbarItem label="Films" />
-          <NavbarItem label="New and Popular" />
-          <NavbarItem label="My List" />
-          <NavbarItem label="Browse by languages" />
+          <NavbarItem label="Home" href="/home" />
+          <NavbarItem label="Series" href="/series" />
+          <NavbarItem label="Films" href="/films" />
+          <NavbarItem label="New and Popular" href="/new" />
+          <NavbarItem label="My List" href="/my-list" />
+          <NavbarItem label="Browse by languages" href="/browse-by-languages" />
         </div>
         <div
           onClick={toggleMobileMenu}
